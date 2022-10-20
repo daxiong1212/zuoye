@@ -1,0 +1,23 @@
+*{
+	margin: 0;
+	padding: 0;
+	}
+.xxx{
+	text-align: center;
+}
+.xyx{
+	height: 700px;
+	width: 1480px;
+	background-color: aqua;
+}
+
+.xy{
+	margin-top: 60px;
+	margin-left: 600px;
+	
+}
+.bb{
+	margin-top: 60px;
+	float: right;
+	margin-right: 500px;
+}
