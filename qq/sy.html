@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style>
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		.top{
+			padding-bottom: 25px;
+			height: 30px;
+			width: 100%;
+			background-color: azure;
+		     padding-top: 10px;
+		}
+		.tops{
+			
+			margin-top: 18px;
+			margin-right: 45px;
+			
+		}
+		.tops p{
+			font-size: 10px;
+		}
+		.i{
+			float: right;
+		}
+		.big{
+			display: flex;
+		}
+		.b{
+			margin-top: 120px;
+			margin-left: 68px;
+		}
+		.b h2{
+			color: goldenrod;
+			padding: 10px;
+		}
+		.b p{
+			padding: 5px;
+			
+		}
+		.b p:last-of-type{
+			font-size: 8px;
+		}
+		.x{
+			padding: 120px;
+			display: flex;
+		}
+		.j{
+			
+			
+			height: 250px;
+			width: 250px;
+			
+			background-color: aqua;
+			text-align: center;
+			
+			
+		}
+		.k{
+			padding-left: 240px;
+			padding-top:80px;
+		}
+		.j h3,p{
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+		</style>
+		<script> 
+	
+
+			function errors(){
+				var c=document.getElementById("zhanghao").value;
+				var d=document.getElementById("mima").value;
+				if(c==""||c==null){
+					alert("账号不能为空");
+					return false;
+					
+				}
+				else if(isNaN(c)){
+					alert("请输入数字");
+					return false;
+				}
+				else if(c!='2574590710'){
+					alert("账号输入错误");
+					return false;
+				}
+				else if(d!='123456789'){
+					alert("密码输入错误");
+					return false;
+				}
+				
+			}
+		
+		
+		</script>
+	</head>
+	<body>
+		<div class="top">
+		<div class="tops">
+		
+		<input type="image" src="./img/04.png" style="width: 240px; height: 33px; ">
+		<div class="i">
+		<p>基本版 | English | 手机版 | 企业邮箱</p>	
+			</div>
+		</div>	
+		</div>
+		
+		
+		<div class="big">
+		<div class="b">
+		<h2>QQ邮箱，常联系!</h2>
+		
+		<p>到头来，</p>
+		<p>我们记住的，</p>
+		<p>不是敌人的攻击，</p>
+		<p>而是朋友的沉默。</p>
+		<p>--马丁.路德.金</p>
+		
+		<p>插画来自九条命</p>
+			
+			
+		</div>	
+		
+		<div class="x">
+		<img src="./img/22.jpg" style="width: 350px; height: 350px;">
+			</div>	
+			<div class="k">
+				<div class="j">
+					<form action="宙斯.html" onsubmit="return errors()" method="get">
+				<h3>密码登录</h3>
+				<p>推荐使用快捷登录,防止盗号</p>
+				<p>
+				<input  placeholder="请输入关键字"type="text" id="zhanghao">
+				</p>
+				<p>
+				<input  placeholder="请输入密码" type="password" id="mima">
+				</p>
+				<!-- <input type="button" value="显示你的值" onclick="getValue()"> -->		
+				<input type="submit" value="登录">
+				</form>
+				</div>
+				</div>
+		</div>
+	</body>
+</html>
